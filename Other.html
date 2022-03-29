@@ -77,10 +77,30 @@ body {
      width:400px;
 }
 
+.btn {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin: 0px 19px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: red;
+        font-weight:500;
+    }
+
     </style>
 </head>
 <body bgcolor="black">
-    <a class="back" href="index.html#services" role="button">Back</a>
+    <!-- <a class="back" href="index.html#services" role="button">Back</a> -->
+    <button class="btn"onclick="history.back()">Go Back</button>
+
+    
 
     <body>
         <div class="container">
@@ -95,8 +115,6 @@ body {
            <img class="item" src="Inter-School Dodge Ball.jpeg" alt="Example image">
            <img class="item" src="Balance Race.jpeg" alt="Example image">
 
-
-    
         </div>
 
      </div>
