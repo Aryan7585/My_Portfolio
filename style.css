@@ -304,6 +304,10 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+#medal{
+    margin-top: 30px;
+}
+
 /* skills section styling */
 
 .skills .title::after{
